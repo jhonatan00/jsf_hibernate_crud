@@ -8,4 +8,14 @@
 		<property name="hibernate.connection.username">root</property>
 		<property name="hibernate.connection.password">123456</property>
 	</session-factory>
+	
+	/*
+	<session-factory>
+		<property name="dialect">org.agiledev.core.SQLServerDialect</property> 
+		<property name="hibernate.connection.driver_class">net.sourceforge.jtds.jdbc.Driver</property>
+		<property name="hibernate.connection.url">jdbc:jtds:sqlserver://localhost:1433/livraria</property>
+		<property name="hibernate.connection.username">teste2</property>
+		<property name="hibernate.connection.password">teste2</property>
+	</session-factory>
+	*/
 </hibernate-configuration>
