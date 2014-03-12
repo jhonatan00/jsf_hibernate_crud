@@ -11,7 +11,7 @@
 	
 	/*
 	<session-factory>
-		<property name="dialect">org.agiledev.core.SQLServerDialect</property> 
+		<property name="hibernate.dialect">org.agiledev.core.SQLServerDialect</property> 
 		<property name="hibernate.connection.driver_class">net.sourceforge.jtds.jdbc.Driver</property>
 		<property name="hibernate.connection.url">jdbc:jtds:sqlserver://localhost:1433/livraria</property>
 		<property name="hibernate.connection.username">teste2</property>
